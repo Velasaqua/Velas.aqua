@@ -1,91 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VelasAqua</title>
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-body{
-background:#f8f8f5;
-color:#333;
-}
-header{
-background:linear-gradient(135deg,#4cc9d8,#79e4d8);
-padding:80px 20px;
-text-align:center;
-color:white;
-}
-header h1{
-font-size:48px;
-}
-header p{
-margin-top:15px;
-font-size:20px;
-}
-section{
-max-width:1000px;
-margin:auto;
-padding:50px 20px;
-}
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-.card{
-background:white;
-border-radius:15px;
-padding:20px;
-box-shadow:0 5px 15px rgba(0,0,0,.1);
-text-align:center;
-}
-footer{
-background:#222;
-color:white;
-text-align:center;
-padding:30px;
-margin-top:40px;
-}
-</style>
-</head>
-<body>
+VelasAqua
 
-<header>
-<h1>🕯️ VelasAqua</h1>
-<p>Velas artesanales y personalizadas para cualquier ocasión.</p>
-</header>
+El mar convertido en luz.
 
-<section>
-<h2 style="text-align:center;margin-bottom:30px;">Nuestros productos</h2>
+Instagram @velas.aqua
+Nuestra esencia
 
-<div class="cards">
-<div class="card">
-<h3>Velas Aromáticas</h3>
-<p>Fragancias únicas para tu hogar.</p>
-</div>
+Creamos velas artesanales inspiradas en el océano, personalizadas para momentos especiales.
 
-<div class="card">
-<h3>Velas Personalizadas</h3>
-<p>Con nombres, fechas y diseños exclusivos.</p>
-</div>
+Velas marinas
 
-<div class="card">
-<h3>Regalos Especiales</h3>
-<p>Perfectas para bodas, cumpleaños y eventos.</p>
-</div>
-</div>
-</section>
+Conchas, arena y efecto agua.
 
-<footer>
-<h2>VelasAqua</h2>
-<p>Gracias por visitar nuestra tienda.</p>
-</footer>
+Personalizadas
 
-</body>
-</html>
+Nombres, fechas y colores.
+
+Hechas a mano
+
+Cada pieza es única.
+
+© 2026 VelasAqua · Síguenos en @velas.aqua
+document.querySelectorAll('.card').forEach(c=>c.onmouseenter=()=>c.style.scale='1.03');document.querySelectorAll('.card').forEach(c=>c.onmouseleave=()=>c.style.scale='1');
+style.css
