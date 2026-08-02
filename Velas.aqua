@@ -1,110 +1,60 @@
-VelasAqua
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VelasAqua | La luz del océano</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-El mar convertido en luz.
+<body>
 
-Instagram @velas.aqua
-Nuestra esencia
+<header>
+    <div class="hero">
+        <h1>VelasAqua</h1>
+        <p>Donde la esencia del mar se convierte en luz ✨</p>
+        <a href="https://wa.me/" class="btn">Crear mi vela personalizada</a>
+    </div>
+</header>
 
-Creamos velas artesanales inspiradas en el océano, personalizadas para momentos especiales.
+<section class="about">
+    <h2>Velas hechas para momentos únicos</h2>
+    <p>
+        Diseñamos velas personalizadas inspiradas en la calma del océano,
+        la arena y los atardeceres junto al mar.
+    </p>
+</section>
 
-Velas marinas
+<section class="products">
+    <h2>Nuestras colecciones</h2>
 
-Conchas, arena y efecto agua.
+    <div class="cards">
+        <div class="card">
+            <h3>🌊 Brisa Marina</h3>
+            <p>Una vela fresca inspirada en las olas.</p>
+        </div>
 
-Personalizadas
+        <div class="card">
+            <h3>🌅 Atardecer Azul</h3>
+            <p>Colores cálidos con esencia de verano.</p>
+        </div>
 
-Nombres, fechas y colores.
+        <div class="card">
+            <h3>🐚 Arena Dorada</h3>
+            <p>Elegancia natural para regalar.</p>
+        </div>
+    </div>
+</section>
 
-Hechas a mano
+<section class="contact">
+    <h2>Haz tu pedido personalizado</h2>
+    <p>Cuéntanos tu idea y crearemos una vela única para ti.</p>
+    <a href="https://wa.me/" class="btn">Contactar por WhatsApp</a>
+</section>
 
-Cada pieza es única.
+<footer>
+    © 2026 VelasAqua | Hecho con amor y esencia marina 🌊
+</footer>
 
-© 2026 VelasAqua · Síguenos en @velas.aqua
-document.querySelectorAll('.card').forEach(c=>c.onmouseenter=()=>c.style.scale='1.03');document.querySelectorAll('.card').forEach(c=>c.onmouseleave=()=>c.style.scale='1');
-body{
-margin:0;
-font-family:system-ui,-apple-system,BlinkMacSystemFont,sans-serif;
-background:#eefbfc;
-color:#14343d;
-}
-
-.hero{
-height:80vh;
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
-background:linear-gradient(135deg,#00bcd4,#76e4db);
-color:white;
-padding:20px;
-}
-
-.overlay{
-max-width:700px;
-}
-
-h1{
-font-size:4rem;
-margin:0;
-text-shadow:0 4px 10px rgba(0,0,0,.2);
-}
-
-h2{
-text-align:center;
-font-size:2rem;
-margin-bottom:20px;
-}
-
-p{
-line-height:1.7;
-}
-
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:14px 28px;
-background:white;
-color:#00a0b3;
-border-radius:30px;
-font-weight:bold;
-text-decoration:none;
-transition:.3s;
-}
-
-.btn:hover{
-background:#00a0b3;
-color:white;
-}
-
-section{
-max-width:1100px;
-margin:auto;
-padding:60px 20px;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:20px;
-}
-
-.card{
-background:rgba(255,255,255,.75);
-backdrop-filter:blur(8px);
-border-radius:18px;
-padding:20px;
-box-shadow:0 10px 25px rgba(0,0,0,.1);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-8px);
-}
-
-footer{ 
-background:#0f2e35;
-color:white;
-text-align:center;
-padding:25px;
-margin-top:40px;
-}
+</body>
+</html>
